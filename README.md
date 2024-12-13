@@ -72,17 +72,13 @@
    - 共線 : 直接計算所有點的垂直平分線
    - 不共線 : 計算三角形外心並生成 Voronoi Diagram，邊的方向是由方向向量和點的內積所決定的 ![點3](/pic/point3.png)
 
-### 核心演算法
-1. **分治法 (Divide-and-Conquer)**:
-   - 利用遞迴分割點集，左右分別生成 Voronoi 圖，並進行合併。
-2. **Convex Hull**:
-   - 採用 Andrew's monotone chain 演算法，找出上下凸包以輔助合併過程。
-3. **Hyperplane**:
-   - 利用中垂線找出上下切線與合併過程中的邊界。
-
-### 改良之處
-- 分步演示與結果視覺化。
-- 提供共線點的特殊處理，避免異常情況。
+### 四點以上
+用 Divide-and-Conquer 方法來分割點集合並逐步合併生成 Voronoi 圖
+1. **Divide** : 將點集合分為左右兩部分，如果是奇數個點，左邊點數 +1，然後遞迴計算左右兩邊的 Voronoi Diagram
+2. **Convex Hull** : 找到左右兩邊的 Convex Hull，並合併成一個大的，然後求上下切線
+   - Andrew's monotone chain
+3. **Hyperplane** : 透過上下切線來找 Hyperplane 的起點和終點
+4. **Merge** : 找到 Hyperplane 後即可合併左右兩個 Voronoi Diagram
 
 ---
 
