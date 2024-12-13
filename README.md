@@ -24,7 +24,7 @@
    - 可以儲存畫布上的點和邊資料，輸出資料格式 : 點 P x y，邊 E x1 y1 x2 y2，座標點以 lexical order順序排列（即先排序第一維座標，若相同，則再排序第二維座標；線段亦以 lexical order 順序排列
 
 ### 功能規格與介面規格
-![介面設計][https://github.com/pwr7822alm/Voronoi-Diagram/tree/main/pic/program-desing.png]
+![介面設計](https://github.com/pwr7822alm/Voronoi-Diagram/tree/main/pic/program-desing.png)
 - 提供使用者繪製點、清除畫布、以及儲存/載入結果的按鈕介面
 - 支援 `Step by Step` 模式，逐步展示 Voronoi 圖生成過程
 
