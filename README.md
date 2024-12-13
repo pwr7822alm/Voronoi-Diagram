@@ -10,7 +10,7 @@
 ## 1. 題目
 **Voronoi Diagram Term Project**
 
-本專案旨在使用 Python 與 PyQt5 建構一個基於分治法的 Voronoi Diagram 視覺化系統，具備輸入點集、生成對應 Voronoi 圖的功能，並包含分步操作的說明與測試。
+本專案旨在使用 Python 與 PyQt5 建構一個基於分治法的 Voronoi Diagram 視覺化系統，具備輸入點集、生成對應 Voronoi 圖的功能，並包含分步操作的說明與測試
 
 ---
 
@@ -18,13 +18,15 @@
 
 ### 輸出與輸入（資料）規格
 1. **輸入**:
-   - 使用者於畫布上點擊產生的點座標，或由檔案讀取點資料。
+   - 使用者於畫布上點擊產生的點座標，或由檔案讀取點資料和邊資料
 2. **輸出**:
-   - 根據輸入點生成的 Voronoi 圖，包含邊的座標資訊，並以視覺化形式呈現。
+   - 根據輸入點生成的 Voronoi 圖，包含邊的座標資訊，並以視覺化形式呈現
+   - 可以儲存畫布上的點和邊資料，輸出資料格式 : 點 P x y，邊 E x1 y1 x2 y2，座標點以 lexical order順序排列（即先排序第一維座標，若相同，則再排序第二維座標；線段亦以 lexical order 順序排列
 
 ### 功能規格與介面規格
-- 提供使用者繪製點、清除畫布、以及儲存/載入結果的按鈕介面。
-- 支援 `Step by Step` 模式，逐步展示 Voronoi 圖生成過程。
+![介面設計][https://github.com/pwr7822alm/Voronoi-Diagram/tree/main/pic/program-desing.png]
+- 提供使用者繪製點、清除畫布、以及儲存/載入結果的按鈕介面
+- 支援 `Step by Step` 模式，逐步展示 Voronoi 圖生成過程
 
 ---
 
