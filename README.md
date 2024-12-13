@@ -97,17 +97,17 @@
 
 ### 測試結果
 - **三點以下**:
-  - ![P3](/pic/test2-3.png)
-  - ![P3](/pic/test2-4.png)
-  - ![P3](/pic/test2-5.png)
-  - ![P3](/pic/test2-6.png)
+  ![P3](/pic/test2-3.png)
+  ![P3](/pic/test2-4.png)
+  ![P3](/pic/test2-5.png)
+  ![P3](/pic/test2-6.png)
 - **四點以上**: 
-  - ![P3](/pic/test3-1.png)
-  - ![P3](/pic/test3-4.png)
-  - ![P3](/pic/test3-6.png)
+  ![P3](/pic/test3-1.png)
+  ![P3](/pic/test3-4.png)
+  ![P3](/pic/test3-6.png)
 - **多點共線**:
-  - ![MP](/pic/test4-1.png)
-  - ![MP](/pic/test4-2.png)
+  ![MP](/pic/test4-1.png)
+  ![MP](/pic/test4-2.png)
 
 ### 問題與可能解決方案
 1. **交點判斷 Bug**:
