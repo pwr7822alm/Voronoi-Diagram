@@ -8,7 +8,7 @@
 ---
 
 ## 1. 題目
-**Voronoi Diagram Term Project**
+**Voronoi Diagram Term Project By Divide-and-Conquer**
 
 本專案旨在使用 Python 與 PyQt5 建構一個基於分治法的 Voronoi Diagram 視覺化系統，具備輸入點集、生成對應 Voronoi 圖的功能，並包含分步操作的說明與測試
 
